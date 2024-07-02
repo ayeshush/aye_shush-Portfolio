@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>aye-shush Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7fd189fdbc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div>
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style="font-weight: 500;">Front End Developer</p>
+            <h1>Heyy, I'm <span>Ayush</span><br>Behera from MUJ</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------about--------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/sksksk.jpg" alt="potrait">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm an innovative and tech-savvy individual with a great passion for web development and design. My strong organizational and time management skills, along with my collaborative mindset, enable me to excel in team environments. I'm goal-oriented and driven, and I possess a tireless work ethic that consistently delivers results.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces.</li>
+                        <li><span>FRONT END DEVELOPMENT</span><br>Aspiring Full-Stack Developer with in dpeth knowledge of HTML, CSS, Bootstrap, JS and SQL.</li>
+                        <li><span>LEADERSHIP</span><br>President of a club leading 400+ students.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>Graduated secondary examination with 95% from DPS Ruby Park, Kolkata.</li>
+                        <li><span>2022</span><br>Graduated higher secondary examination with 89% from DPS Ruby Park, Kolkata.</li>
+                        <li><span>CURRENT</span><br>Pursuing B.Tech in CSE from Manipal University Jaipur with a current CGPA of 9.6. <br> Holder of the Dean's List of Academic Excellence for 4 consecutive semesters.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>SPORTS</span><br>I am a versatile athlete who plays almost every sport. Recently, I have taken a liking to basketball.</li>
+                        <li><span>MUSIC</span><br>Listening to music is one of my favourite past-times. One of my most listened-to genres is Hip-Hop.</li>
+                        <li><span>WEB-SERIES</span><br>I love watching web-series whenever I'm taking a break. One of my favourite shows would be Suits starring Gabriel Macht and Patrick J. Adams.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------Skills--------------- -->
+<div id="skill">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>Web Design: Figma</h2>
+                <p>I have experience in using Figma for UI/UX and web design. This enables me to create intuitive, visually appealing websites efficiently, ensuring a seamless user experience and effective interface design.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML & CSS</h2>
+                <p>I have in-depth knowledge of HTML and CSS, including flexbox, grid and webkit enabling me to create detailed, responsive portfolios that showcase skills and projects effectively.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Bootstrap & JavaScript</h2>
+                <p>I have a strong understanding of Bootstrap and JavaScript, which allows me to create dynamic, responsive portfolios. This means I can effectively showcase my skills and projects in a polished, professional way, making sure every detail is perfect and the user experience is seamless and engaging.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------experience--------------- -->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">Experience</h1>
+        <div class="experience-list">
+            <div class="experience">
+                <img src="./images/1.png" alt="rotaract-logo.png">
+                <div class="layer">
+                    <h3>Rotaract Club MUJ</h3>
+                    <p>As President of the Rotaract Club, I lead and manage a team of 400+ members. Alongside them, I plan and oversee projects, and coordinate with Rotary International to achieve our community service goals. My role focuses on strategic planning, member engagement, and promoting our initiatives.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="./images/2.png" alt="rotaract-logo.png">
+                <div class="layer">
+                    <h3>HackX MUJ 2.0</h3>
+                    <p>As Operations Manager at HackX, I oversee the planning and execution of the hackathon, manage logistics, coordinate with teams and ensure a seamless event experience for all participants.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="experience">
+                <img src="./images/3.png" alt="rotaract-logo.png">
+                <div class="layer">
+                    <h3>Under25 Summit</h3>
+                    <p>As the Marketing Director for the Under 25 Summit, I make strategic initiatives to promote the event, manage social media campaigns, and collaborate with partners to enhance brand visibility. My role involves analyzing market trends, creating compelling content, and driving engagement to ensure the summit's success.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ayushdoc04@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 82403 59292</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ayush.behera.7330763" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ayush_.1106/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://discordapp.com/users/524998378283597824" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.linkedin.com/in/ayush-behera-7343a421b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./assets/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                    <input type="email" name="Email" placeholder="Enter you email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;aye_shush. Made by Ayush.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxgQSmt-AvvFONCEi1SBpvBhbIYqPJJbwP4H3W6IhBNsDw0Ssig3ZEPTUm0M7Tu629F/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
